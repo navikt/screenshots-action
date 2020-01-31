@@ -1,0 +1,36 @@
+{
+  "name": "screenshots-action",
+  "version": "1.0.0",
+  "description": "GitHub action for å ta skjermbilder med Puppeteer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && npm audit",
+    "standard-fix": "standard --fix",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navikt/screenshots-action.git"
+  },
+  "keywords": [
+    "GitHub Action",
+    "Screenshots",
+    "Puppeteer",
+    "NAV",
+    "navikt"
+  ],
+  "author": "Geir Gåsodden <geir.gasodden@pythonia.no> (https://github.com/zrrrzzt)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/navikt/screenshots-action/issues"
+  },
+  "homepage": "https://github.com/navikt/screenshots-action#readme",
+  "dependencies": {
+    "@actions/core": "1.2.2",
+    "@actions/io": "1.0.2",
+    "puppeteer-core": "2.1.0"
+  },
+  "devDependencies": {
+    "standard": "14.3.1"
+  }
+}

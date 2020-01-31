@@ -1,0 +1,14 @@
+name: "Screenshots action"
+description: "Take multiple screenshots with puppeteer"
+author: "Geir Gåsodden <geir.gasodden@pythonia.no>"
+branding:
+  icon: "grid"
+  color: "red"
+runs:
+  using: "node12"
+  main: "index.js"
+inputs:
+  url:
+    required: true
+    description: "The URL you want screenshots from"
+  
