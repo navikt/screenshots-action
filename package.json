@@ -1,6 +1,6 @@
 {
   "name": "screenshots-action",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "GitHub action for å ta skjermbilder med Puppeteer.",
   "main": "index.js",
   "scripts": {
