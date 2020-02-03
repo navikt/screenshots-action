@@ -6,7 +6,8 @@
   "scripts": {
     "test": "standard && npm audit",
     "standard-fix": "standard --fix",
-    "refresh": "rm -rf node_modules && rm package-lock.json && npm i"
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm i",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,8 @@
     "puppeteer-core": "2.1.0"
   },
   "devDependencies": {
-    "standard": "14.3.1"
+    "standard": "14.3.1",
+    "webpack": "4.41.5",
+    "webpack-cli": "3.3.10"
   }
 }
