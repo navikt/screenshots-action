@@ -24,7 +24,7 @@ Legg dette inn i .yml-filen
 ```
 steps:
   - name: Ta skjermbilder av nav.no
-    uses: "navikt/screenshots-action@1.0.3"
+    uses: "navikt/screenshots-action@1.0.4"
     with:
       url: https://www.nav.no
 ```
