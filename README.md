@@ -8,6 +8,8 @@ Den emulerer en del enheter og tar skjermbilder som lagres i `$GITHUB_WORKSPACE/
 
 Enhetene som emuleres pr nå er
 - Chrome (øh... ikke akkurat emulert dah)
+- Samsung Galaxy S5
+- Samsung Galaxy S10
 - iPhone 6
 - iPhone X
 - iPad
@@ -22,7 +24,7 @@ Legg dette inn i .yml-filen
 ```
 steps:
   - name: Ta skjermbilder av nav.no
-    uses: "navikt/screenshots-action@1.0.0"
+    uses: "navikt/screenshots-action@1.0.1"
     with:
       url: https://www.nav.no
 ```
