@@ -17,6 +17,8 @@
     const page = await browser.newPage()
 
     await takeScreenshots(page, url)
+
+    await browser.close()
   } catch (error) {
     core.setFailed(`Failed to run action. ${error}`)
     process.exit(1)
