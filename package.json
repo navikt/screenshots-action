@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/navikt/screenshots-action#readme",
   "dependencies": {
-    "@actions/core": "1.2.2",
+    "@actions/core": "1.2.6",
     "@actions/io": "1.0.2",
     "puppeteer-core": "2.1.0"
   },
